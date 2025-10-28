@@ -1,0 +1,101 @@
+/* div{
+   height: 200px;
+   width: 200px;
+   background-color: #ffa511; */
+   /* background-color:rgba(255,0,0,1);  */
+   /* alpha channel = sets the opacity for a color Rnges from 0 to 1 the form of rgba(255,255,255,0.3)*/
+   /* OPACITY = It sets the opacity for the element Ranges from 0 to 1( here 0 means hidden and 1 means complitly visible). */
+/* } */
+
+ /* #opacity {
+      background-color: #ffa511;
+      opacity:1;
+ } */
+
+ /*  CSS TRANSITIONS = Transitions enable you to define the transition between two states of an element. */
+
+/* case of hover */
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    margin: 50px;
+    margin: 0 auto; 
+    transition: margin-top 2s ease-in-out 0.2s;
+    /*  here we use auto its give equal space margin to left and right side. */
+/* } */ 
+
+
+ /* div:hover {
+          /* border-radius: 50%; */
+          /* margin-top: 400px;
+          background-color: black; */
+/* } */ 
+ 
+/* TRANSFORM PROPERTY USE HERE. */
+/* section {
+    margin-top:100px;
+}
+div {
+    width: 200px;
+    height: 50px;
+    text-align:center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n) {
+    background-color:#f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color:#ebb02d;
+}
+
+/* transform rotate */
+
+/* #one {
+    transform: rotate(180deg);
+}
+
+#two{
+    transform:scale(0.5,1); */
+    /*  here 0.5 is x-dtection and 1 is y-direction. */
+/* } */
+
+/* #three{
+    transform:translate(-100px);
+}
+
+#four{
+     transform:skew(30deg);
+}
+
+#five{
+    transform: rotate(30deg)translateX(150px);
+} */ 
+
+/*  USING BOX SHADDOW HERE */
+
+/* div {
+    width: 200px;
+    height:50px;
+    text-align: center;
+    background-color: #7aa874;
+    border:2px solid black;
+    margin:10px auto;
+    box-shadow: 2px 2px 8px yellow;
+    /* x ofset 2px, y ofset 2px , blur radius-> 8px  ( BOX SHADDOW IT CREATES 3D EFFECTS)*/ 
+/* } */ 
+
+div {
+    width: 900px;
+    height:600px;
+    background-color: #7aa874;
+    margin:10px auto;
+    background-image: url("pexels-pixabay-326055.jpg");
+    background-size: cover;
+    /* in case of auto image is blured, and case of contain image is just like original image and the case of cover image is crop on the bottom. */
+    color:white;
+}
